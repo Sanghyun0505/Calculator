@@ -1,0 +1,73 @@
+@media all and(max-width: 960px){
+    .media{
+        width:500px;
+        height:300px;
+    }
+}
+@media all and(min-width: 480px){
+    .media{
+        width: 300px;
+		height: 400px;
+    }
+}
+.mainbar{
+    margin:90px auto;
+    width: 550px;
+    height: 680px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 1.5rem;
+    /* box-shadow: 3px 3px 3px 3px rgb(205, 205, 205); */
+    border:2px solid black;
+}
+
+.Res{
+    outline: none;
+    font-size: 50px;
+    /* border: none; */
+    text-align: right;
+    position: relative;
+    margin-top: 60px;
+    left:20px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(205, 205, 205);
+    border:2px solid black;
+}
+
+.bossbox{
+    margin-top: 50px;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    position: relative;
+    left:35px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.box1_n, .box2_n,.box3_n,.box4_n{
+    margin-right: 40px;
+    font-size: 25px;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.box1_n:hover{
+    background-color: rgba(221, 221, 221, 0.977);
+}
+
+.box2_n{
+   background-color: rgb(255, 255, 255);
+}
+
+.box2_n:hover{
+    background-color: rgb(239, 239, 239);
+}
+
+.box__{
+    color:white;
+    background-color: rgba(49, 49, 67, 0.922);
+}
